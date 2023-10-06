@@ -2,7 +2,7 @@
 /**
  * main - entry point to the program
  * prints the alphabet in lowercase, followed by a new line
- * Retrun: 0 finishes the program
+ * Return: 0 finishes the program
  */
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 		{
 			putchar(alphabets);
 			alphabets++;
-											
+
 		}
 		putchar('\n');
 		return (0);
