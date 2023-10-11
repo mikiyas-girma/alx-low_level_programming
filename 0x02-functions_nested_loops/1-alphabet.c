@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - entry point
@@ -14,5 +13,4 @@ void print_alphabet(void)
 		lowers++;
 	}
 	putchar('\n');
-	return (0);
 }
