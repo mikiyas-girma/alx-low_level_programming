@@ -1,18 +1,19 @@
-#include <main.h>
+#include <stdio.h>
+#include "main.h"
+
 /**
- * main - entry point to the program
- * Return: 0 and finishes the program
+ * main -  prints _putchar, followed by a new line
+ * Return: Always 0
  */
 int main(void)
 {
-	char word[] = "_putchar\n";
-	int char_counter = 0;
+	int i;
+	char c[] = "_putchar";
 
-	while (char_counter < 9)
+	for (i = 0; i <= 7; i++)
 	{
-		putchar(word[char_counter]);
-		char_counter++;
+		putchar(c[i]);
 	}
-	printf("_putchar\n");
+	putchar('\n');
 	return (0);
 }
