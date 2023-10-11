@@ -1,4 +1,5 @@
-#include <main.h>
+#include <stdio.h>
+#include "main.h"
 /**
  * main - entry point to the program
  * Return: 0 and finishes the program
@@ -10,9 +11,9 @@ int main(void)
 
 	while (char_counter < 9)
 	{
-		_putchar(word[char_counter]);
+		putchar(word[char_counter]);
 		char_counter++;
 	}
-	printf("_putchar\n");
+	putchar('\n');
 	return (0);
 }
