@@ -11,7 +11,6 @@ int main(void)
 
 	for (i = 0; i <= 7; i++)
 	{
-		char_counter++;
 		putchar(c[i]);
 	}
 	putchar('\n');
