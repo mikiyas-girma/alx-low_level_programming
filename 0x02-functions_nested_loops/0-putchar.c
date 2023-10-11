@@ -10,7 +10,7 @@ int main(void)
 
 	while (char_counter < 9)
 	{
-		_putchar(word[char_counter]);
+		putchar(word[char_counter]);
 		char_counter++;
 	}
 	printf("_putchar\n");
