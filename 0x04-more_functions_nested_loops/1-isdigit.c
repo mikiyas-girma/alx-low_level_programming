@@ -2,6 +2,7 @@
 #include <ctype.h>
 /**
  * _isdigit - checks whether is between 0 and 9
+ * @c: character
  * Return: 1 if true else 0
  */
 int _isdigit(int c)
