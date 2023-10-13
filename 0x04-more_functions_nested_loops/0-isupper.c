@@ -8,6 +8,7 @@
 int _isupper(int c)
 {
 	char a = (char)c;
+
 	if (isupper(a))
 	{
 		return (1);
