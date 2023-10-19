@@ -4,6 +4,7 @@
  * @dest: place where concatenated strings stored
  * @src: source strings to be concatenated to dest
  * @n: n numbers of char to be concatenated
+ * Return: the concatenated string
  */
 char *_strncat(char *dest, char *src, int n)
 {
