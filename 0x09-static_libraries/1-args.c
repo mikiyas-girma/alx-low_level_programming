@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - prints number of arguments that are passed when running
  * the program but not including program name.
