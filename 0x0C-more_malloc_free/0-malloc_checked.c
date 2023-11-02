@@ -6,11 +6,14 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	int *mymem = malloc(sizeof(b));
+	void *my;
 
-	if (mymem == NULL)
+
+	my = malloc(b);
+
+	if (my == NULL)
 	{
 		exit(98);
 	}
-	return (mymem)
+	return (my)
 }
