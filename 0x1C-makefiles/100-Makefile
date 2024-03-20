@@ -12,7 +12,7 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	$(CC) $(CFLAGS) -o $@ $^
 
-%.o: %.c m.h
+.o: .c m.h
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 clean:
@@ -21,7 +21,6 @@ clean:
 oclean:
 	$(RM) $(OBJ)
 
-fclean: clean
-	$(RM) $(NAME)
+fclean: clean oclean
 
 re: fclean all
