@@ -9,9 +9,11 @@ all: $(NAME)
 $(NAME) = $(OBJ)
 
 clean:
-	$(RM) *~ *.swp *.swo $(NAME)
+	$(RM) *~ $(NAME)
+
 oclean:
 	$(RM) $(OBJ)
-fclean:
-	$(RM) *~ *.swp *.swo $(NAME) $(OBJ)
-re: clean all
+
+fclean: clean oclean
+
+re: fclean all
