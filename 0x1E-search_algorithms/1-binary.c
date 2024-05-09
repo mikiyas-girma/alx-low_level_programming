@@ -22,7 +22,7 @@ size_t high = size - 1;
 		unsigned int mid = low + (high - low) / 2;
 		unsigned int i;
 
-		printf("Searching in array:");
+		printf("Searching in array: ");
 		for (i = low; i < high; i++)
 			printf("%d, ", array[i]);
 		printf("%d\n", array[i]);
